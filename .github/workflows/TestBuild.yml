@@ -1,0 +1,9 @@
+name: test if build works
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    run: ubuntu-latest
+    
